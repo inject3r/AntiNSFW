@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Runtime
+data/*
+!data/.gitkeep
+*.log
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
